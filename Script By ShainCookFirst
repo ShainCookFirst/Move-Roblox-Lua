@@ -1,0 +1,4 @@
+local object = script.Parent -- замените "script.Parent" на объект, который вы хотите переместить
+local targetPosition = Vector3.new(0, 5, 0) -- замените значениями координаты, куда вы хотите переместить объект
+
+object.Position = targetPosition
